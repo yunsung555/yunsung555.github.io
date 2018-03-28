@@ -1,0 +1,57 @@
+<!doctype html>  <!-- table.html -->
+<html lang="ko">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, intitual-scale=1"/>
+<style> table, thead,tbody,tfoot,tr,th,td {
+ border: 1px solid black;  border-collapse:collapse;
+}
+ .subject1 {background-color:red; color:white;}
+ .subject2 {background-color:blue; color:white;}
+ .subject3 {background-color:green; color:white;}
+ .subject4 {background-color:pink; color:white;}
+ .subject5 {background-color:gray; color:white;}
+ .subject6 {background-color:orange; color:white;}
+ .subject7 {background-color:purple; color:white;}
+</style>
+<title>시간표</title>
+</head>
+<body>
+ <table>
+ <thead>
+ <tr>
+  <th>비고</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+  <td>0교시</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td>
+ </tr>
+ <tr>
+  <td>1교시</td><td> </td><td rowspan="2" class="subject3">오토마타와응용</td><td> </td><td> </td><td> </td><td> </td>
+ </tr>
+ <tr>
+  <td>2교시</td><td> </td><td> </td><td> </td><td class="subject3">오토마타와응용</td><td> </td>
+ </tr>
+ <tr>
+  <td>3교시</td><td rowspan="2" class="subject1">디지털 논리회로</td><td> </td><td rowspan="2" class="subject4">자료구조및실습</td><td rowspan="2" class="subject4">자료구조및실습</td><td> </td><td> </td>
+ </tr>
+ <tr>
+  <td>4교시</td><td> </td><td> </td><td> </td>
+ </tr>
+ <tr>
+  <td>5교시</td><td> </td><td class="subject1">디지털 논리회로</td><td> </td><td rowspan="2" class="subject5">인터넷프로그래밍</td><td> </td><td> </td>
+ </tr>
+ <tr>
+  <td>6교시</td><td rowspan="4" class="subject2">c++ 프로그래밍</td><td> </td><td> </td><td> </td><td class="subject7">컴퓨터및it이해</td>
+ </tr>
+ <tr>
+  <td>7교시</td><td> </td><td> </td><td> </td><td rowspan="2" class="subject6">캠퍼스 멘토링</td><td> </td>
+ </tr>
+ <tr>
+  <td>8교시</td><td> </td><td> </td><td rowspan="2" class="subject5">인터넷프로그래밍</td><td> </td>
+ </tr>
+ <tr>
+  <td>9교시</td><td> </td><td> </td><td> </td><td> </td>
+ </tr>
+ </tbody>
+ </table><hr/>
+</body></html>
