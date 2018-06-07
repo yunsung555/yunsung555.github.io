@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="https://yunsung555.github.io/20180524/sample.css"/><script src="../js/sample.js"></script>
 <title>웹 프로그래밍 실습 </title>
 <script>
- function fnGetElementsByName(){
-  var accessTag = document.getElementById("input")[0];
+ function fnGetElementsByTagName(){
+  var accessTag = document.getElementsByTagName("input")[0];
   console.log(accessTag.tagName);
-  accessTag.setAttribute("value","getElementByTagName 실행!");
+  accessTag.setAttribute("value","getElementsByTagName 실행!");
  }
 </script>
 </head>
