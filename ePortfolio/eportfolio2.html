@@ -1,0 +1,55 @@
+<!DOCTYPEhtml> <!-- ePortfolio2.html -->
+<html lang="ko">
+<head>
+ <meta charset="utf-8"/>
+ <meta name="viewport"content="width=device-width,initial-scale=1"/>
+ <style>
+   header, nav, section, article, aside, footer
+   {border:1px solid gray; margin:5px; padding:8px;width:1000px;}
+   section{width:1000px;float:left;}
+   section section{width:975px;float:left;}
+   footer{height:50px; clear:both;}
+   nav ul{margin:0; padding:0;}
+   nav ul li{display:inline; margin:5px;}
+   aside ul{margin:0; padding:0;}
+   aside ul li{display:block; margin:5px;}
+   aside ul li img{width:50px;height:50px;}
+   a:link{color:blue;background-color:transparent;text-decoration:none;}
+   a:visited{color:pink;background-color:transparent;text-decoration:none;}
+   a:hover{color:red;background-color:transparent;text-decoration:underline;}
+   a:active{color:blue;background-color:transparent;text-decoration:none;}
+   .subject{background-color:lightgray;}
+   th{width:160px; height:50px;}
+  .menu li, .banner ul { list-style-type:none; }
+  .menu li { background-color:pink; color:black; padding:3px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .menu li:hover { background-color:red; }
+  .banner li { border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .banner li img { width:30%; vertical-align:middle; }
+ </style> <title>ePortfolio</title>
+</head>
+<body>
+ <header>
+  <h2>20171412 최윤성 e포트폴리오</h2>
+ </header>
+ <nav>
+  <ul>
+   <li><a href="https://yunsung555.github.io/ePortfolio/ePortfolio.html"> 홈</a></li>
+   <li><a href="">수강 내역</a></li>
+   <li><a href="">시간표</a></li>
+   <li><a href="">spec</a></li>
+  </ul>
+  <script>
+    function event1onclick(){document.getElementById("id_1").innerHTML="수학1<br/>스포츠건강체력<br/>비전탐색<br/>글쓰기기초<br/>공감의이해와소통<br/>소프트웨어디자인<br/>프로그래밍기초및실습<br/>공학설계";}
+    function event2onclick(){document.getElementById("id_1").innerHTML="발표와토론<br/>수학2<br/>글쓰기심화<br/>글로벌시대의예절과인성<br/>영어강독<br/>파워포인트<br/>프로그래밍응용및실습<br/>비전설계";}
+    function event3onclick(){document.getElementById("id_1").innerHTML="c++프로그래밍<br/>디지털논리회로<br/>오토마타와응용<br/>인터넷프로그래밍<br/>자료구조및실습<br/>캠퍼스멘토링<br/>컴퓨터및it이해";}
+  </script>
+ </nav>
+  <nav class="menu"> 
+  <ul><li onclick="event1onclick()">1학년 1학기</li><li onclick="event2onclick()">1학년 2학기</li><li onclick="event3onclick()">2학년 1학기</li></ul>
+  <p id="id_1">학기 선택</p>
+  </nav>
+  <footer>
+  <p>&copy;2018 Made by Korea. All rights reserved.</p>  
+ </footer>
+</body>
+</html>
