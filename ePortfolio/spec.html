@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- spec.html -->
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="project.css"/>
+  <script>
+    function event1onclick()
+    {
+      document.getElementById("id_1").innerHTML="정보 없음";
+    }
+    function event2onclick()
+    {
+      document.getElementById("id_1").innerHTML="정보 없음";
+    }
+    function event3onclick(){
+      document.getElementById("id_1").innerHTML="정보 없음";
+    }
+    function event4onclick(){
+      document.getElementById("id_1").innerHTML="정보 없음";
+    }
+    function event5onclick(){
+      document.getElementById("id_1").innerHTML="(2018)서해 수호 걷기대회 참여</br>(2017)충남 헌혈 켐페인 참여</br>(2017)유성도서관 일손 돕기 참여</br>";
+    }
+  </script>
+  <title>SPEC</title>
+</head>
+<body>
+<header class="header"><h2>SPEC</h2></header>
+<div class="row"></div>
+<div id="main">
+  <nav class="col-3 col-m-3 menu">
+    <ul>
+      <li onclick="event1onclick()">공인성적, 자격증</li>
+      <li onclick="event2onclick()">경력</li>
+      <li onclick="event3onclick()">공모전</li>
+      <li onclick="event4onclick()">동아리</li>
+      <li onclick="event5onclick()">봉사활동</li>
+    </ul>
+  </nav>
+  <section class="col-6 col-m-9">
+    <p id="id_1">
+    항목을 선택하세요
+    </p>
+  </section>
+</div>
+<div class="row"></div>
+<footer class="footer">
+<h4>Copyright 2018 Korea.</h4>
+</footer>
+</body>
+</html>
